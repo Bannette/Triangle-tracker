@@ -1,3 +1,7 @@
 h1{
     font-family: 'PT Serif', serif;
 }
+
+#about{
+    float: left;
+}
