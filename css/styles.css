@@ -5,3 +5,7 @@ h1{
 #about{
     float: left;
 }
+
+.card{
+    width: 35%;
+}
