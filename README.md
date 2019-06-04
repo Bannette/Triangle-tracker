@@ -25,7 +25,7 @@ the tracker should give return the following outputs when user key in;
 #### output; it's a scalene
 
 ## LIVE LINK
-https://bannette.github.io/my-portfolio/
+https://bannette.github.io/Triangle-tracker/
 
 ## CONTACT INFORMATION
 Contact me via:
