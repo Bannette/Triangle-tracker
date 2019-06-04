@@ -1,7 +1,7 @@
 # PROJECT NAME: TRIANGLE TRACKER
 # AUTHOR NAME: BANNETTE ALOO ODEMBO
 ## DESCRIPTION OF A PROJECT
-This project contains information is based on making a Triangle tracker app, whereby the user put the lenght value of the three sides of the triangle and the triangle is able to detect wether the triangle is equilateral, isosceles, scalene or NOT a triangle
+This project contains information which is based on making a Triangle tracker app, whereby the user inputs values of the three sides of the triangle and the triangle is able to output wether the triangle is equilateral, isosceles, scalene or NOT a triangle
 
 ## PROJECT SETUP INSTRUCTION
 I installed Linux operating system
