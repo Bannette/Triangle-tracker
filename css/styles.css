@@ -1,7 +1,17 @@
 h1{
     font-family: 'PT Serif', serif;
 }
-
+h2{
+    text-align: center;
+    font-family: Verdana;
+    font-weight: 100;
+}
+h3{
+    font-family: Verdana;
+}
+h4{
+font-family: Verdana;
+}
 #about{
     float: left;
 }
@@ -17,4 +27,10 @@ h1{
 
 .barbra{
     padding-left: 480px;
+}
+body{
+background-color: #CFDEF3;
+}
+.row{
+
 }

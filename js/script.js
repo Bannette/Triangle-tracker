@@ -10,14 +10,14 @@ function typeOfTriangle(){
 
     if (side1 > 0 && side2 > 0 && side3 > 0) {
       if (side1 === side2 && side2 === side3) {
-        alert("Your values make an equilateral triangle. All sides equal;");
+        alert("EQUILATERAL TRIANGLE!!");
       }
       else if (side1 === side2 || side1 === side3 || side2 === side3) {
-        alert("Your values give an isosceless triangle. Two sides equal;");
+        alert("ISOSCELES TRIANGLE!!");
       } 
     
       else if (side1 !== side2 && side1 !== side3 && side2 !== side3) {
-        alert("Your values give an scalene triangle. all sides not equal;");
+        alert("IT'S A SCALENE!!");
       }
     
     }
