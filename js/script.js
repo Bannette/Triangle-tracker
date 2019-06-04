@@ -1,11 +1,15 @@
-function typeOfTriangle() {
-    document.querySelector("#side1").value;
-    document.querySelector("#side2").value;
-    document.querySelector("#side3").value;
+function typeOfTriangle(){
 
+	var side1= document.querySelector('#triangle-side1').value;
+	var side2= document.querySelector('#triangle-side2').value;
+	var side3= document.querySelector('#triangle-side3').value;
+	var answer=document.querySelector('#answer');
 
-    if (side1==side2 && side2==side3){
-        console.log("equi")
-        alert('equil')
+	// console.log('clickes')
+	if (side1==side2 && side2==side3){
+		console.log('equal')
+		 window.alert('equilateral')
+		answer.innerHTML = 'equilateral'
     }
+    
 }

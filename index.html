@@ -34,7 +34,7 @@
                 <div class="card-body">
                     <h1>TRIANGLE TRACKER</h1>
 
-                    <h2>Definition of a triangle</h2>
+                    <!-- <h2>Definition of a triangle</h2>
         <p>a plane figure with three straight sides and three angles.</p>
       <h3>Types of a triangle</h3>
          <h4>EQUILATERAL</h4>
@@ -46,22 +46,22 @@
         <h4>SCALENE</h4>
         <p>A scalene triangle is a triangle that has three unequal sides</p>
         <img src="images/sca.jpg" class="img-fluid">
-                    <br><br>
-                    <form action="">
-                        <label for="text">Side1</label>
-                        <input type="text" name="Side1" id="side1">
-                        <br><br>
-                        <label for="text">Side2</label>
-                        <input type="text" name="Side2" id="side2">
-                        <br><br>
-                        <label for="text">Side3</label>
-                        <input type="text" name="Side3" id="side3">
-                        <br><br>
-                        <div class="button">
-                            <button  class="btn btn-outline-primary" onClick="typeOfTriangle()">SUBMIT</button>
-                            <button  class="btn btn-outline-primary">REFRESH</button>
-                        </div>
+                    <br><br> -->
+                    <form>
+                        <label for="number">SIDE .1</label>
+                        <input class="form-control" type="text" name="number"  placeholder="side1"id="triangle-side1">
+                        <br>
+                        <label for="number">SIDE .2</label>
+                        <input class="form-control" type="text" name="number"  placeholder="side2"id="triangle-side2">
+                        <br>
+                        <label class="form-control-sm d-inline-block my-2" for="number">SIDE .3</label>
+                        <input class="form-control" type="text" name="number"  placeholder="side3"id="triangle-side3">
+                        <br>
+                        <button class="btn btn-outline-primary" type="text" value="SUBMIT" onClick="typeOfTriangle()">SUBMIT</button>
+                        
+                        <button class="btn btn-outline-warning" type="text" value="SUBMIT" onClick="refresh()">REFRESH</button>
                     </form>
+                    <p class="d-none" value="" id="answer"></p>
                 </div>
             </div>
         </div>
