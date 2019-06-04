@@ -13,6 +13,17 @@ CSS
 JAVA SCRIPT
 JQUERY
 BOOTSTRAP4
+## BEHAVIOUR DRIVEN DEVELOPMENT
+the tracker should give return the following outputs when user key in;
+#### input; zero or negative number
+#### output; insert a number greater than zero
+#### input; all numbers which are equal of your choice
+#### output; Equilateral triangle
+#### input; two equal sides with one different lenght
+#### output; isocelece triangle
+#### input; three different lenghts
+#### output; it's a scalene
+
 ## LIVE LINK
 https://bannette.github.io/my-portfolio/
 
