@@ -33,37 +33,47 @@
             <div class="card">
                 <div class="card-body">
                     <h1>TRIANGLE TRACKER</h1>
-
-                    <!-- <h2>Definition of a triangle</h2>
-        <p>a plane figure with three straight sides and three angles.</p>
-      <h3>Types of a triangle</h3>
-         <h4>EQUILATERAL</h4>
-        <p>A triangle that has all sides equal</p>
-        <img src="images/equil.jpg" class="img-fluid">
-        <h4>ISOCELES</h4>
-        <p>A triangle in which two sides have the same length</p>
-        <img src="images/iso.jpg" class="img-fluid">
-        <h4>SCALENE</h4>
-        <p>A scalene triangle is a triangle that has three unequal sides</p>
-        <img src="images/sca.jpg" class="img-fluid">
-                    <br><br> -->
+                    <br><br>
                     <form>
                         <label for="number">SIDE .1</label>
-                        <input class="form-control" type="text" name="number"  placeholder="side1"id="triangle-side1">
+                        <input class="form-control" type="text" name="number" placeholder="side1" id="side1">
                         <br>
                         <label for="number">SIDE .2</label>
-                        <input class="form-control" type="text" name="number"  placeholder="side2"id="triangle-side2">
+                        <input class="form-control" type="text" name="number" placeholder="side2" id="side2">
                         <br>
                         <label class="form-control-sm d-inline-block my-2" for="number">SIDE .3</label>
-                        <input class="form-control" type="text" name="number"  placeholder="side3"id="triangle-side3">
+                        <input class="form-control" type="text" name="number" placeholder="side3" id="side3">
                         <br>
-                        <button class="btn btn-outline-primary" type="text" value="SUBMIT" onclick="typeOfTriangle()">SUBMIT</button>
-                        
-                        <button class="btn btn-outline-warning" type="text" value="SUBMIT" onclick="refresh()">REFRESH</button>
+                        <button class="btn btn-outline-primary" type="text" value="SUBMIT"
+                            onclick="typeOfTriangle()">SUBMIT</button>
+
+                        <button class="btn btn-outline-warning" type="text" value="SUBMIT"
+                            onclick="refresh()">REFRESH</button>
                     </form>
                     <p class="d-none" value="" id="result"></p>
                 </div>
             </div>
+        </div>
+
+        <h2>Definition of a triangle</h2>
+        <p>a plane figure with three straight sides and three angles.</p>
+        <h3>Types of a triangle</h3>
+        <div class="row">
+        <div class="col-md-4">
+        <h4>EQUILATERAL</h4>
+        <p>A triangle that has all sides equal</p>
+        <img src="images/equil.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-4">
+        <h4>ISOCELES</h4>
+        <p>A triangle in which two sides have the same length</p>
+        <img src="images/iso.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-4">
+        <h4>SCALENE</h4>
+        <p>A scalene triangle is a triangle that has three unequal sides</p>
+        <img src="images/sca.jpg" class="img-fluid">
+        </div>
         </div>
     </div>
     <script src="js/script.js"></script>
