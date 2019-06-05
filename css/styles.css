@@ -45,6 +45,9 @@ color:blue;
 .card{
     width: 50%;
     text-align: center;
+    margin: 60 auto; 
+    float: left;
+    margin-bottom: 10px;
 }
 
 .button{
@@ -57,6 +60,9 @@ color:blue;
 body{
 background-color: #CFDEF3;
 }
-.row{
+ @media only screen and (orientation: landscape) {
+    body {
+        background-color: #CFDEF3;
+    }
+  }
 
-}
