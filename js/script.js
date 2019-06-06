@@ -4,25 +4,31 @@ function typeOfTriangle(){
 	var side2= document.querySelector('#side2').value;
 	var side3= document.querySelector('#side3').value;	
     
-    var result=document.querySelector('#result')
-  
-    var arrSide = [side1, side2, side3];
+    var answer=document.querySelector('#answer')
 
     if (side1 > 0 && side2 > 0 && side3 > 0) {
+
       if (side1 === side2 && side2 === side3) {
-        alert("EQUILATERAL TRIANGLE!!");
+        window.alert("EQUILATERAL TRIANGLE!!");
+        answer.innerHTML='EQUILATERAL TRIANGLE!!';
       }
       else if (side1 === side2 || side1 === side3 || side2 === side3) {
-        alert("ISOSCELES TRIANGLE!!");
+        window.alert("ISOSCELES TRIANGLE!!");
+        answer.innerHTML='ISOSCLES TRIANGLE!!';
       } 
     
       else if (side1 !== side2 && side1 !== side3 && side2 !== side3) {
-        alert("IT'S A SCALENE!!");
+        window.alert("IT'S A SCALENE!!");
+        answer.innerHTML='SCALENE TRIANGLE!!';
       }
     
     }
      else {
          (((side1 + side2) <= side3) || ((side1 + side3) <= side2) || ((side2 + side3) <= side1))
-      alert("Insert a number greater than zero, values can't make a triangle");
+        window.alert("Insert a number greater than zero, values cannot make a triangle");
+      answer.innerHTML='VALUES CANNOT MAKE A TRIANGLE!!';
     }
+  }
+  function refresh(){
+      location.reload();
   }
